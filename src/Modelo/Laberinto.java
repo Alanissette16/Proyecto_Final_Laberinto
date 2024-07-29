@@ -8,7 +8,7 @@ public class Laberinto {
     private Celda inicio;
     private Celda fin;
     
-    // Variable pública estática para almacenar el camino
+    
     public List<Celda> path = new ArrayList<>();
 
     public void setInicio(Celda inicio) {
