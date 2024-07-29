@@ -177,8 +177,8 @@ public class LaberintoGui extends JFrame {
         txtResultado = new JTextArea();
         txtResultado.setColumns(20);
         txtResultado.setRows(2);
-        txtResultado.setLineWrap(true); // Permite el ajuste de línea
-        txtResultado.setWrapStyleWord(true); // Ajuste de palabra
+        txtResultado.setLineWrap(true); 
+        txtResultado.setWrapStyleWord(true); 
         gbc.gridx = 1;
         gbc.gridy = 1;
         gbc.gridwidth = 2;
@@ -309,7 +309,7 @@ public class LaberintoGui extends JFrame {
             for (Celda celda : recorrido) {
                 SwingUtilities.invokeLater(() -> colorearCelda(celda.getRow(), celda.getCol(), color));
                 try {
-                    Thread.sleep(200); // Delay of 200 milliseconds
+                    Thread.sleep(200); 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

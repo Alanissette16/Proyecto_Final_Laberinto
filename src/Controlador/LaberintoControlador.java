@@ -94,7 +94,7 @@ public class LaberintoControlador {
                             long finTiempo = System.nanoTime();
                             mostrarTiempoYResultado(metodo, inicioTiempo, finTiempo);
                         });
-                        return; // Exit early because the painting is handled by the delay
+                        return; 
                     } else {
                         solucion = laberinto.findPathBFS(grid);
                     }
@@ -114,7 +114,7 @@ public class LaberintoControlador {
                         long finTiempo = System.nanoTime();
                         mostrarTiempoYResultado(metodo, inicioTiempo, finTiempo);
                     });
-                    return; // Exit early because the painting is handled by the delay
+                    return; 
                 } else {
                     solucion = laberinto.findPathDFS(grid);
                 }
