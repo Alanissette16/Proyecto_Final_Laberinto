@@ -30,13 +30,13 @@ o DFS (Depth-First Search)
 - Valeria Mantilla: Nuestra propuesta de código se centro en la elaboración de una interfaz grafica simple con lenguaje en java, se ejecuto siguiendo el ejemplo planteado por el Ingeniero, los métodos Recursivo Simple, método con caché, BFS y DFS, creados en la Clase Laberinto fueron generados con el Ingeniero pero alterados para que concuerde con las demás variables de nuestras clases y se puedan ejecutar sin problema alguno, opino que lo que más nos costo realizar en nuestro código fue el GUI y el controlador con los parametros de vista y modelo.
 ## Capturas de la implementación final de la UI.
 ## Recursivo Simple
-![alt text](image.png)
+![alt text](image-4.png)
 ## Método Caché
-![alt text](image-1.png)
+![alt text](image-5.png)
 ## BFS
-![alt text](image-2.png)
+![alt text](image-6.png)
 ## DFS
-![alt text](image-3.png)
+![alt text](image-7.png)
 
 ## Conclusiones:
 En el proyecto se compararon varios métodos para encontrar el camino más corto en un laberinto: métodos recursivos, BFS, DFS y programación dinámica. Aunque el método recursivo es simple, no es eficiente para laberintos grandes porque consume mucha memoria y tiempo. Se ha descubierto que BFS es adecuado para encontrar el camino más corto en términos de número de aristas, pero la eficiencia del tiempo disminuye en laberintos grandes. DFS, aunque es eficiente en términos de memoria, no garantiza que se encontrará la ruta más corta. La técnica de programación dinámica ahorra tiempo y espacio al evitar cálculos redundantes, lo que ha demostrado ser la mejor opción en general. Este análisis nos permite mejorar nuestro conocimiento de estructuras de datos y algoritmos, mejorando el pensamiento algorítmico y la competencia en la resolución de problemas.
