@@ -33,8 +33,8 @@ public class Celda {
     @Override
     public String toString() {
         return "Celda{" +
-                "row=" + row +
-                ", col=" + col +
+                 + row +
+                "," + col +
                 '}';
     }
 }

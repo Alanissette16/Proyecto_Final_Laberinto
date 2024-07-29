@@ -29,9 +29,13 @@ o DFS (Depth-First Search)
 
 - Valeria Mantilla: Nuestra propuesta de código se centro en la elaboración de una interfaz grafica simple con lenguaje en java, se ejecuto siguiendo el ejemplo planteado por el Ingeniero, los métodos Recursivo Simple, método con caché, BFS y DFS, creados en la Clase Laberinto fueron generados con el Ingeniero pero alterados para que concuerde con las demás variables de nuestras clases y se puedan ejecutar sin problema alguno, opino que lo que más nos costo realizar en nuestro código fue el GUI y el controlador con los parametros de vista y modelo.
 ## Capturas de la implementación final de la UI.
+## Recursivo Simple
 ![alt text](image.png)
+## Método Caché
 ![alt text](image-1.png)
+## BFS
 ![alt text](image-2.png)
+## DFS
 ![alt text](image-3.png)
 
 ## Conclusiones:
